@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Junit5Basic.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in Junit5Basic.MathUtilsTest
+testComputeCircleArea  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Junit5Basic.MathUtils.computeCircleArea(double)" because "this.mathUtils" is null
+	at Junit5Basic.MathUtilsTest.testComputeCircleArea(MathUtilsTest.java:24)
+
+add  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Junit5Basic.MathUtils.add(int, int)" because "this.mathUtils" is null
+	at Junit5Basic.MathUtilsTest.add(MathUtilsTest.java:17)
+
